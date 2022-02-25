@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check",
+    "lint-fix": "stylelint \"**/*.css\" --fix && eslint . --fix && prettier . --check"
   },
   "eslintConfig": {
     "extends": [
