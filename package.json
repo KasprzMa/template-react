@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "stylelint \"**/*.css\" && eslint . && prettier . --check",
-    "lint-fix": "stylelint \"**/*.css\" --fix && eslint . --fix && prettier . --check"
+    "lint-fix": "stylelint \"**/*.css\" --fix && eslint . --fix && prettier . --check",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +44,8 @@
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "stylelint": "^14.5.3",
     "stylelint-config-prettier": "^9.0.3",
